@@ -1,19 +1,74 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "tasksList": [
+        {
+            "id": 0,
+            "category": "Packing List",
+            "list": [
+                {
+                    "task": "outfits",
+                    "due": null
+                },  
+                {
+                    "task": "underwear",
+                    "due": null
+                },
+                {
+                    "task": "toiletries",
+                    "due": null
+                }, 
+                {
+                    "task": "supplements",
+                    "due": null
+                },
+                {
+                    "task": "charge cords",
+                    "due": null
+                } 
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Home Maintenance",
+            "list": [
+                {
+                    "task": "dishwasher monthly clean",
+                    "due": "June 2"
+                }, 
+                {
+                    "task": "replace A/C filters",
+                    "due": "June 1"
+                },
+                {
+                    "task": "washing machine monthly clean",
+                    "due": "June 4"
+                }, 
+                {
+                    "task": "get septic tank pumped",
+                    "due": "Nov 4"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Pay Bills",
+            "list": [
+                {
+                    "task": "gas",
+                    "due": "June 17"
+                },
+                {
+                    "task": "electric",
+                    "due": "June 18"
+                },
+                {
+                    "task": "credit card 1",
+                    "due": "June 23"
+                },
+                {
+                    "task": "credit card 2",
+                    "due": "June 15"
+                } 
+            ]
+        }
+    ]
 }
